@@ -1,0 +1,271 @@
+---
+title: "Auditoria baseada em dados"
+subtitle: "e os desafios do Auditor de Controle Externo moderno."
+author: "ACE Weverton Lisboa de Sena"
+institute: ""
+date: 2024/05/03
+date-format: "MMMM - YYYY"
+title-slide-attributes:
+  data-background-color: "aquamarine"
+  data-background-image: "imagens/capa.svg"
+bibliography: resources/slides.bib
+csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
+fontsize: "32px"
+format:
+  revealjs:
+    css: custom.css
+    multiplex: true
+    scrollable: true
+    template-partials: 
+      - resources/title-slide.html
+    menu:
+      side: right
+      width: wide
+    sc-sb-title: true
+    subtitle-as-header: true
+    slide-number: true
+    lang: "pt"
+    language: "pt"
+    section-divs: false
+    footer: "Dia do Auditor de Controle Externo - 2024 - Salvador/BA"
+    title-slide-attributes:
+        data-state: "hide-menubar"
+    center: true
+    transition: slide
+    background-transition: fade
+    controls: true
+    controls-layout: bottom-right
+    #css: "css/style.css"
+    simplemenu:
+        flat: true
+        barhtml:
+            header: "<div class='menubar'><ul class='menu'></ul><div>"
+        scale: 0.40
+    verticator:
+      tooltip: true
+revealjs-plugins:
+  - simplemenu
+---
+
+
+---
+nocite: |
+  @galor2022jornada
+  @silberzahn2018many
+  @anderson2015
+  @morrow2022data
+  @morrow2021data
+  @espindola2021
+  @glass2014big
+  @wickham2023r
+  @susskind2015future
+  @datasaurus
+  @huff2016
+  @bruce2019
+  @crabtree2023
+  @ribeiro2017
+  @bean2022book
+  @kahneman2021noise
+  @gladwell2005
+  @frank2022
+---
+
+##
+> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
+
+##
+-   **Introdução**
+  - O que são dados?
+  - Na era da abundância de dados;
+  - O que são dados de qualidade?
+  - Caso I: Natsal-3
+  - Caso II: 
+  - Quais os desafios para o Auditor de Controle Externo moderno?
+  - Caso III: Censo CNJ
+  - Uma mensagem
+* **FIM**
+
+# O que são dados?
+
+##
+
+> *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018]
+
+
+## Dados vs. Informação {style="text-align:justify"}
+
+<br>
+
+Apesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes. 
+
+Em linhas gerais, a informação é derivada do conhecimento e o dado é a informação codificada. [@gutman2021]
+
+::: callout-tip
+A temperatura em Salvador é de 32º C. (Dado)
+
+Faz 32º C em Salvador, o dia mais quente de janeiro de 2024. (Informação)
+:::
+
+
+# Na era da abundância de dados {style="text-align:center"}
+
+## Lei de Moore
+
+<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+
+## Custo de armazenamento
+
+<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
+
+## Tudo ficou mais fácil? {style="text-align:justify"}
+
+<br>
+
+> O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. [@frank2022]
+
+> Um número maior de dados significa que precisamos estar ainda mais conscientes do valor efetivo da evidência. [@spiegelhalter2022]
+
+
+## O que são dados de qualidade? {style="text-align:justify"}
+
+* relevante;
+* tempestivo;
+* acurado;
+* limpo;
+* sem viés;
+* confiável.
+
+::: callout-note
+A estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. [@redman2016]
+
+:::
+
+# Natsal-3
+
+_The National Surveys of Sexual Attitudes and Lifestyles_^[(<https://www.natsal.ac.uk>)]
+
+Pesquisa Nacional de Estudos Sexuais e Estilo de Vida
+
+
+## Dados sobre a Natsal-3
+
+* Natsal-3 envolveu uma amostra de probabilidade de 15.162 adultos com idades entre 16 e 74 anos que foram entrevistados entre 2010 e 2012;
+
+* Custou cerca de 7 milhões de libras
+
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(gt)
+
+tab_01 <- tibble(`Número reportado de parceiros sexuais ao longo da vida` = c("Média",
+                           "Mediana",
+                           "Moda",
+                           "Amplitude",
+                           "Intervalo interquartil",
+                           "Desvio-padrão"),
+                 `Homens de 35-44 anos` = c("14,3", 8, 1, "0 a 500", "4 a 18", "24,2"),
+                 `Mulheres de 35-44 anos` = c("8,5", 5, 1, "0 a 500", "3 a 10", "19,7")
+                 )
+
+tab_01 %>%
+  gt() |> 
+  tab_header(
+    title = md("**Número de parceiros sexuais do sexo oposto entre 35-44 anos**")
+  ) |> 
+  cols_align(align = "center", columns = c(2,3)) |> 
+  cols_width(`Número reportado de parceiros sexuais ao longo da vida` ~ px(450)) |> 
+  tab_source_note(source_note = "Fonte: Natsal-3 / (Spiegehalter, 2022).") 
+#     cols_label(
+#     state = "Situação em relação a Big Data/IA",
+#     ) %>% 
+#     cols_width(
+#     state ~ px(600)
+#     ) %>% 
+#     fmt_percent(
+#     columns = c("2019", "2020", "2021")
+#     ) %>% 
+#     sub_missing(
+#     rows = everything(),
+#     missing_text = "-"
+#     ) %>% 
+#   tab_source_note(source_note = "Fonte: NewVantage Partners, Big Data and AI Executive Survey 2021.") %>% 
+#   tab_source_note(source_note = md("Referência: (BEAN, 2021)")) %>% 
+#   tab_options(column_labels.background.color = "gray50", column_labels.font.weight = "bold")
+#   # tab_style(
+#   #   style = list(
+#   #     cell_fill(color = "gray80"),
+#   #     cell_text(weight = "bold")
+#   #     ),
+#   #   locations = cells_stubhead()
+#   #  
+#   # )
+
+
+```
+
+##
+
+> Em termos relativos, os homens reportaram cerca de 60% de parceiras a mais do que as mulheres, tanto para a média, quanto para a mediana [@spiegelhalter2022]
+
+## Algumas hipóteses para os resultados
+
+::: {.incremental}
+
+
+* Os homens se relacionaram com parceiras mais jovens;
+* Os homens são mais propensos a exagerar o número de parceiras e as mulheres tendem a subestimá-los;
+* A aparente existência de diferenças sistemáticas na forma de reportar o histórico.
+
+::: 
+
+##
+
+```{r}
+library(ggplot2)
+partner.counts <-read.csv("dados/02-4-sexual-partners-counts-x.csv", header=TRUE) # reads data into data frame
+
+attach(partner.counts)
+Men.data=rep(NumPartners,MenCount)
+# summary(Men.data)
+# sd(Men.data)
+# range(Men.data)
+# sum(MenCount)
+# 
+# Women.data=rep(NumPartners,WomenCount)
+# summary(Women.data)
+# sd(Women.data)
+# range(Women.data)
+# sum(WomenCount)
+
+# create data frame with Gender as factor
+
+Ncats=length(NumPartners)
+
+partners = data.frame( NumPartners2=c(NumPartners,NumPartners), Percent=c(MenPercent,WomenPercent), Gender=c(rep("M",Ncats),rep("F",Ncats)) )
+
+p <- ggplot(partners, aes(x=NumPartners2)) # constructs initial plot object, p
+p <- p + geom_bar(aes(y=Percent,fill=Gender),stat = "identity",position="dodge") # assigns bar-chart type with side by side (dodged) bars
+#p <- p + geom_text(aes(x = 20, y = 12, label = "Women 35-44", color = "Female", hjust=0)) # our custom legend
+#p <- p + geom_text(aes(x = 20, y = 11, label = "Men 35-44", color = "Male", hjust=0)) # our custom legend
+p <- p + scale_x_continuous(breaks = c(0,5,10,15,20,25,30,35,40,45,50), limits=c(0,50)) # desired x-axis value labels
+p <- p + scale_y_continuous(breaks = c(0,2,4,6,8,10,12,14,16,18)) # desired y-axis value labels
+p <- p + scale_colour_brewer(palette = "Set1") # sets the colour palette 
+p <- p + theme(legend.position="none") # removes the default legend
+p <- p +  labs(x="Número reportado de parceiros do sexo oposto", y="Percentual", fill = "Gênero") # Adds axis labels  
+
+p + theme_minimal()# draw the plot
+
+```
+
+
+## [Uma mensagem]{.case} {background-image="imagens/final.jpg"}
+
+
+## Referências
+
+::: {#refs}
+:::

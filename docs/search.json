@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "apresentacao.html#section",
+    "href": "apresentacao.html#section",
+    "title": "",
+    "section": "",
+    "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
+  },
+  {
+    "objectID": "apresentacao.html#section-1",
+    "href": "apresentacao.html#section-1",
+    "title": "",
+    "section": "",
+    "text": "Introdução\nO que são dados?\nNa era da abundância de dados;\nO que são dados de qualidade?\nCaso I: Natsal-3\nCaso II:\nQuais os desafios para o Auditor de Controle Externo moderno?\nCaso III: Censo CNJ\nUma mensagem\nFIM"
+  },
+  {
+    "objectID": "apresentacao.html#section-2",
+    "href": "apresentacao.html#section-2",
+    "title": "",
+    "section": "",
+    "text": "De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018)"
+  },
+  {
+    "objectID": "apresentacao.html#dados-vs.-informação",
+    "href": "apresentacao.html#dados-vs.-informação",
+    "title": "",
+    "section": "Dados vs. Informação",
+    "text": "Dados vs. Informação\n\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e o dado é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nDica\n\n\nA temperatura em Salvador é de 32º C. (Dado)\nFaz 32º C em Salvador, o dia mais quente de janeiro de 2024. (Informação)"
+  },
+  {
+    "objectID": "apresentacao.html#lei-de-moore",
+    "href": "apresentacao.html#lei-de-moore",
+    "title": "",
+    "section": "Lei de Moore",
+    "text": "Lei de Moore"
+  },
+  {
+    "objectID": "apresentacao.html#custo-de-armazenamento",
+    "href": "apresentacao.html#custo-de-armazenamento",
+    "title": "",
+    "section": "Custo de armazenamento",
+    "text": "Custo de armazenamento"
+  },
+  {
+    "objectID": "apresentacao.html#tudo-ficou-mais-fácil",
+    "href": "apresentacao.html#tudo-ficou-mais-fácil",
+    "title": "",
+    "section": "Tudo ficou mais fácil?",
+    "text": "Tudo ficou mais fácil?\n\n\nO desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. (Frank, Magnone e Netzer, 2022)\n\n\nUm número maior de dados significa que precisamos estar ainda mais conscientes do valor efetivo da evidência. (Spiegelhalter, 2022)"
+  },
+  {
+    "objectID": "apresentacao.html#o-que-são-dados-de-qualidade",
+    "href": "apresentacao.html#o-que-são-dados-de-qualidade",
+    "title": "",
+    "section": "O que são dados de qualidade?",
+    "text": "O que são dados de qualidade?\n\nrelevante;\ntempestivo;\nacurado;\nlimpo;\nsem viés;\nconfiável.\n\n\n\n\n\n\n\nNota\n\n\nA estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. (Redman, 2016)"
+  },
+  {
+    "objectID": "apresentacao.html#dados-sobre-a-natsal-3",
+    "href": "apresentacao.html#dados-sobre-a-natsal-3",
+    "title": "",
+    "section": "Dados sobre a Natsal-3",
+    "text": "Dados sobre a Natsal-3\n\nNatsal-3 envolveu uma amostra de probabilidade de 15.162 adultos com idades entre 16 e 74 anos que foram entrevistados entre 2010 e 2012;\nCustou cerca de 7 milhões de libras\n\n\n\n\n\n\n\n  \n    \n    \n    \n  \n  \n    \n      Número de parceiros sexuais do sexo oposto entre 35-44 anos\n    \n    \n    \n      Número reportado de parceiros sexuais ao longo da vida\n      Homens de 35-44 anos\n      Mulheres de 35-44 anos\n    \n  \n  \n    Média\n14,3\n8,5\n    Mediana\n8\n5\n    Moda\n1\n1\n    Amplitude\n0 a 500\n0 a 500\n    Intervalo interquartil\n4 a 18\n3 a 10\n    Desvio-padrão\n24,2\n19,7\n  \n  \n    \n      Fonte: Natsal-3 / (Spiegehalter, 2022)."
+  },
+  {
+    "objectID": "apresentacao.html#section-3",
+    "href": "apresentacao.html#section-3",
+    "title": "",
+    "section": "",
+    "text": "Em termos relativos, os homens reportaram cerca de 60% de parceiras a mais do que as mulheres, tanto para a média, quanto para a mediana (Spiegelhalter, 2022)"
+  },
+  {
+    "objectID": "apresentacao.html#algumas-hipóteses-para-os-resultados",
+    "href": "apresentacao.html#algumas-hipóteses-para-os-resultados",
+    "title": "",
+    "section": "Algumas hipóteses para os resultados",
+    "text": "Algumas hipóteses para os resultados\n\n\nOs homens se relacionaram com parceiras mais jovens;\nOs homens são mais propensos a exagerar o número de parceiras e as mulheres tendem a subestimá-los;\nA aparente existência de diferenças sistemáticas na forma de reportar o histórico."
+  },
+  {
+    "objectID": "apresentacao.html#uma-mensagem",
+    "href": "apresentacao.html#uma-mensagem",
+    "title": "",
+    "section": "Uma mensagem",
+    "text": "Uma mensagem"
+  },
+  {
+    "objectID": "apresentacao.html#referências",
+    "href": "apresentacao.html#referências",
+    "title": "",
+    "section": "Referências",
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLADWELL, M. Blink: a desisão num piscar de olhos. Rio de Janeiro, RJ: Sextante, 2016.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSPIEGELHALTER, D. A arte da estatística: como aprender a partir de dados. Rio de Janeiro, RJ: Zahar, 2022.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023.\n\n\n\n\nDia do Auditor de Controle Externo - 2024 - Salvador/BA"
+  }
+]
