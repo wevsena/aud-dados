@@ -70,8 +70,7 @@ nocite: |
   @frank2022
 ---
 
-##
-> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
+
 
 ##
 -   **Introdução**
@@ -79,13 +78,19 @@ nocite: |
   - Na era da abundância de dados;
   - O que são dados de qualidade?
   - Caso I: Natsal-3
-  - Caso II: 
   - Quais os desafios para o Auditor de Controle Externo moderno?
-  - Caso III: Censo CNJ
+  - Caso II: Censo CNJ
   - Uma mensagem
-* **FIM**
+-  **FIM**
+
+
+# Introdução
 
 # O que são dados?
+
+##
+
+> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
 
 ##
 
@@ -120,13 +125,26 @@ Faz 32º C em Salvador, o dia mais quente de janeiro de 2024. (Informação)
 
 </iframe>
 
+## {style="text-align:justify"}
+
+
+O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**^[221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).], sendo mais de 90% desse volume composto por dados não estruturados. Essa informação é de 2022.
+
+</br>
+
+::: callout-note
+Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.
+:::
+
+
+
+
 ## Tudo ficou mais fácil? {style="text-align:justify"}
 
 <br>
 
 > O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. [@frank2022]
 
-> Um número maior de dados significa que precisamos estar ainda mais conscientes do valor efetivo da evidência. [@spiegelhalter2022]
 
 
 ## O que são dados de qualidade? {style="text-align:justify"}
@@ -218,7 +236,8 @@ tab_01 %>%
 
 * Os homens se relacionaram com parceiras mais jovens;
 * Os homens são mais propensos a exagerar o número de parceiras e as mulheres tendem a subestimá-los;
-* A aparente existência de diferenças sistemáticas na forma de reportar o histórico.
+* A aparente existência de diferenças sistemáticas na forma de reportar o histórico (talvez as mulheres contabilizem seus parceiros de forma diferente ao ponto de não incluírem parceiros que preferem esquecer);
+* A existência do "viés de aceitabilidade social";
 
 ::: 
 
@@ -255,14 +274,111 @@ p <- p + scale_x_continuous(breaks = c(0,5,10,15,20,25,30,35,40,45,50), limits=c
 p <- p + scale_y_continuous(breaks = c(0,2,4,6,8,10,12,14,16,18)) # desired y-axis value labels
 p <- p + scale_colour_brewer(palette = "Set1") # sets the colour palette 
 p <- p + theme(legend.position="none") # removes the default legend
-p <- p +  labs(x="Número reportado de parceiros do sexo oposto", y="Percentual", fill = "Gênero") # Adds axis labels  
+p <- p +  labs(x="Número reportado de parceiros do sexo oposto", y="Percentual", fill = "Gênero",
+               caption = "*Apresentando apenas o intervalo de 0-50") # Adds axis labels  
 
 p + theme_minimal()# draw the plot
 
 ```
 
 
-## [Uma mensagem]{.case} {background-image="imagens/final.jpg"}
+##
+
+
+> Transformar experiências em dados não é um processo direto, e os dados são inevitavelmente limitados em sua capacidade de descrever o mundo. [@spiegelhalter2022]
+
+
+
+# Quais os desafios para o Auditor de Controle Externo moderno?
+
+## Alguns dos desafios
+
+- Ser alfabetizado em dados;
+- Impulsionar a inovação e zelar pela qualidade dos dados;
+- Promover uma cultura de dados;
+- Combater a desinformação.
+
+#
+
+> Os Tribunais de Contas são organizações legadas que não foram concebidas para serem orientadas a dados.
+
+
+## Alfabetização de dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
+
+## Definição {style="text-align:justify"}
+
+<br>
+
+> Alfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. [@morrow2021data]
+
+## {style="text-align:justify"}
+
+<br>
+
+> ..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.
+>
+>[...]
+>
+> O segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. [@frank2022]
+
+
+## Possibilidades apresentadas {style="text-align:justify"}
+
+
+**A1** - Se o Tratamento A for adotado, [2.000 pessoas serão salvas]{.hlight}; _(84%)_
+
+**B1** - Se o Tratamento B for adotado, há uma probabilidade de que [6.000 pessoas serão salvas]{.hlight} e uma probabilidade de dois terços de que ninguém será salvo. (16%)
+
+
+
+**A2** - Se o Tratamento A for adotado, [4.000 pessoas morrerão]{.hlight}; _(16%)_
+
+**B2** - Se o tratamento B for adotado, há uma probabilidade de um terço de que [ninguém morrerá]{.hlight}  e uma probabilidade de dois terços de que [6.000 pessoas vão morrer]{.hlight}. (84%)
+
+::: {.callout-note appearance="simple"}
+
+## Mais informações
+
+Experimento apresentado em _The Framing of Decisions and the Psychology of Choice_ [@tversky1981framing]
+
+:::
+
+## {style="text-align:justify"}
+
+> [...] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. [@kahneman2012]
+
+
+## Comunicar com dados: sabemos? {style="text-align:justify"}
+
+
+> Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. [@crabtree2023]
+
+
+> Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. [...] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. [@knaflic2015]
+
+##
+
+> A melhor defesa contra a subjetividade na ciência é expô-la. A transparência nos dados, métodos e processos dá ao resto da comunidade a oportunidade de ver as decisões, questioná-las, oferecer alternativas e testar essas alternativas em pesquisas futuras.
+
+
+
+## Qualidade dos dados e ausência de confiança
+
+![](./imagens/imagem17.svg){fig-align="center" width=50%}
+
+
+
+## [Bombardeios em Londres - 1940]{.case} {background-image="imagens/final.jpg"}
+
+## {style="text-align:justify"}
+
+> Coragem não é algo que você já tem e o torna destemido quando tempos difíceis começam. Coragem é o que você conquista quando passou por tempos difíceis e descobriu que não são tão difíceis assim. [@gladwell2014davi]
+
+##
+
+
+<h1> **Muito obrigado!** </h1>
+
 
 
 ## Referências
