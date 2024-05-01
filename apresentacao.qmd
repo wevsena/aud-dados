@@ -79,12 +79,16 @@ nocite: |
   - O que são dados de qualidade?
   - Caso I: Natsal-3
   - Quais os desafios para o Auditor de Controle Externo moderno?
-  - Caso II: Censo CNJ
+  - Caso II: Censo CNJ 2023
   - Uma mensagem
--  **FIM**
+-  **Fim**
 
 
 # Introdução
+
+## Inuítes polares - 1820
+
+![](./imagens/inuites.jpg)
 
 # O que são dados?
 
@@ -112,7 +116,7 @@ Faz 32º C em Salvador, o dia mais quente de janeiro de 2024. (Informação)
 :::
 
 
-# Na era da abundância de dados {style="text-align:center"}
+# Na era da abundância de dados
 
 ## Lei de Moore
 
@@ -161,7 +165,7 @@ A estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é 
 
 :::
 
-# Natsal-3
+# Caso I: Natsal-3
 
 _The National Surveys of Sexual Attitudes and Lifestyles_^[(<https://www.natsal.ac.uk>)]
 
@@ -298,12 +302,12 @@ p + theme_minimal()# draw the plot
 - Promover uma cultura de dados;
 - Combater a desinformação.
 
-#
+##
 
 > Os Tribunais de Contas são organizações legadas que não foram concebidas para serem orientadas a dados.
 
 
-## Alfabetização de dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
+## Alfabetização de dados
 
 ## Definição {style="text-align:justify"}
 
@@ -321,13 +325,25 @@ p + theme_minimal()# draw the plot
 >
 > O segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. [@frank2022]
 
+##
+
+> Podemos ficar cegos para o óbvio, e também somos cegos para a nossa própria cegueira. [@kahneman2012]
+
+## Problema apresentado no 6º CONACON
+
+<br>
+
+[Em um município do Estado da Paraíba, 6.000 pessoas foram infectadas por uma variante mortal do _Cordyceps_. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.]{.case}
+
+[Tome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!]{.case}
+
 
 ## Possibilidades apresentadas {style="text-align:justify"}
 
 
 **A1** - Se o Tratamento A for adotado, [2.000 pessoas serão salvas]{.hlight}; _(84%)_
 
-**B1** - Se o Tratamento B for adotado, há uma probabilidade de que [6.000 pessoas serão salvas]{.hlight} e uma probabilidade de dois terços de que ninguém será salvo. (16%)
+**B1** - Se o Tratamento B for adotado, há uma probabilidade um terço de que [6.000 pessoas serão salvas]{.hlight} e uma probabilidade de dois terços de que ninguém será salvo. (16%)
 
 
 
@@ -356,17 +372,105 @@ Experimento apresentado em _The Framing of Decisions and the Psychology of Choic
 
 > Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. [...] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. [@knaflic2015]
 
-##
+<!-- ## -->
 
-> A melhor defesa contra a subjetividade na ciência é expô-la. A transparência nos dados, métodos e processos dá ao resto da comunidade a oportunidade de ver as decisões, questioná-las, oferecer alternativas e testar essas alternativas em pesquisas futuras.
+<!-- > A melhor defesa contra a subjetividade na ciência é expô-la. A transparência nos dados, métodos e processos dá ao resto da comunidade a oportunidade de ver as decisões, questioná-las, oferecer alternativas e testar essas alternativas em pesquisas futuras. -->
+
+## Fuja do 3D e dos gráficos de pizza!
+
+> Não use 3D! Não serve absolutamente para nada e pode prejudicar muito, como vemos aqui, pois distorce a percepção visual dos números. [@knaflic2015]
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](./imagens/imagem07.png)
 
 
+:::
+
+::: {.column width="50%"}
+
+![](./imagens/imagem08.png)
+
+:::
+
+::::
 
 ## Qualidade dos dados e ausência de confiança
 
 ![](./imagens/imagem17.svg){fig-align="center" width=50%}
 
+## Devemos combater a desinformação {style="text-align:justify"}
 
+<br>
+
+> Os mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. [@anderson2015]
+
+# Caso II: Censo CNJ 2023
+
+## O que diz o texto da pesquisa {style="text-align:justify"}
+
+Na página 44 do [documento disponibilizado pelo CNJ](https://www.cnj.jus.br/wp-content/uploads/2023/09/relatorio-do-censo-de-2023.pdf), há o seguinte trecho. 
+
+> A Figura 28 apresenta dados relativos à concordância ou discordância dos(as) magistrados sobre a afirmação: [“Considero que minha remuneração é adequada ao trabalho que executo"]{.hlight}. Tanto nas respostas dos(as) magistrados(as) quanto nas dos(as) servidores(as), que serão abordadas na próxima seção, essa é uma das afirmações que gerou mais discordância.
+
+
+## Os juízes estão satisfeitos com suas remunerações?
+
+![](./imagens/imagem20.png){width=75% fig-position=left}
+
+## E em relação aos servidores? {style="text-align:justify"}
+
+> De maneira geral, no âmbito do Poder Judiciário, 73,9% dos(as) magistrados(as) discordaram ou discordaram completamente da afirmação, em contraste com os 26,1% que concordaram ou concordaram totalmente com a adequação entre a remuneração e o trabalho realizado. Esse percentual de discordância é consideravelmente superior em comparação com as respostas dos(as) servidores(as) [à mesma pergunta]{.hlight}, na qual 54,2% indicaram concordar totalmente ou concordar simplesmente com a afirmação, enquanto 45,8% apontaram discordância em relação à adequação da remuneração às tarefas desempenhadas (Figura 99).
+
+## A pergunta foi a mesma? {style="text-align:justify"}
+
+> Conforme Figura 99, foi perguntado aos(às) servidores(as) se concordavam ou discordavam da seguinte frase: [“Considero que minha remuneração é adequada às minhas atribuições”]{.hlight}. Essa é uma das afirmações que mais tiveram discordância, ainda que os percentuais de concordância tenham sido mais elevados.
+
+## Notícia no  **O Globo** {style="text-align:justify"}
+
+![](./imagens/imagem21.png){width=75% fig-position=left}
+
+[Link da matéria](https://oglobo.globo.com/politica/noticia/2023/09/21/com-remuneracao-media-mensal-de-r-698-mil-739percent-dos-magistrados-brasileiros-acham-que-ganham-pouco.ghtml)
+
+## Notícia no O Globo {style="text-align:justify"}
+
+> Uma pesquisa realizada pelo Conselho Nacional de Justiça (CNJ) aponta que **73,9% dos magistrados do país consideram que recebem remuneração abaixo da adequada**. O 2º Censo do Poder Judiciário, cujo relatório parcial foi publicado no site do órgão nesta terça-feira, indica ainda que quatro em cada cinco juízes ou desembargadores brasileiros acreditam que têm um volume de trabalho maior do que o ideal.
+
+## Notícia no Estadão {style="text-align:justify"}
+
+[Link da matéria](https://www.estadao.com.br/politica/juizes-se-dizem-estressados-e-reclamam-de-excesso-de-trabalho-custo-medio-de-magistrado-68-mil-nprp/)
+
+> Os juízes de Direito brasileiros estão estressados e ansiosos, trabalham demais e **sentem que seus salários não são suficientes**. É o que mostra o relatório parcial do 2º Censo do Poder Judiciário do Conselho Nacional de Justiça (CNJ), divulgado nesta terça-feira, 19, elaborado a partir das respostas de 6,1 mil magistrados do País. O subsídio mais baixo de um juiz federal hoje é de R$ 33 mil, equivalente a 25 salários mínimos.
+
+## Olhando um pouco mais os dados {style="text-align:justify"}
+
+A página 12 do trabalho traz o seguinte texto:
+
+> Sendo assim, traçando um paralelo com a atualização do censo, apesar de terem sido empreendidos diversos esforços de promoção e estímulo à participação por parte do CNJ, até 30 de junho de 2023, data-base para a construção deste relatório, _**somente 23% dos(as) servidores(as) e 34% dos(as) juízes(as) efetivamente já tinham contribuído com a pesquisa.**_
+
+> Como resultado, não é viável categorizá-la como um censo, uma vez que não engloba a totalidade do grupo-alvo. No entanto, o novo levantamento apresentado neste relatório é uma pesquisa robusta, com informações sobre o perfil de magistrados(as) e servidores(as) de todos os tribunais e conselhos que compõem o Judiciário.
+
+## {style="text-align:justify"}
+
+> A fé exagerada em amostragens pequenas é apenas um exemplo de uma ilusão mais geral - prestamos mais atenção ao conteúdo das mensagens do que à informação sobre sua confiabilidade, e como resultado terminamos com uma visão do mundo em torno de nós que é mais simples e mais coerente do que os dados justificam [@kahneman2012]
+
+## {style="text-align:justify"}
+
+> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
+A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
+
+# IA: chegamos ao fim?
+
+## {style="text-align:justify"}
+
+> IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: **avanços algorítmicos, poder computacional e explosão de dados**. [@espindola2021]
+
+## VASA-1 {background-iframe="https://www.microsoft.com/en-us/research/project/vasa-1/"}
+
+
+## Estamos chegando ao fim...
 
 ## [Bombardeios em Londres - 1940]{.case} {background-image="imagens/final.jpg"}
 
@@ -379,6 +483,9 @@ Experimento apresentado em _The Framing of Decisions and the Psychology of Choic
 
 <h1> **Muito obrigado!** </h1>
 
+{{< fa solid envelope size=1xl >}} wsena@tce.pb.gov.br
+
+{{< fa brands linkedin size=1xl >}} Weverton Lisboa de Sena
 
 
 ## Referências

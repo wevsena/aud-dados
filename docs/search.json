@@ -4,7 +4,14 @@
     "href": "apresentacao.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nO que são dados?\nNa era da abundância de dados;\nO que são dados de qualidade?\nCaso I: Natsal-3\nQuais os desafios para o Auditor de Controle Externo moderno?\nCaso II: Censo CNJ\nUma mensagem\nFIM"
+    "text": "Introdução\nO que são dados?\nNa era da abundância de dados;\nO que são dados de qualidade?\nCaso I: Natsal-3\nQuais os desafios para o Auditor de Controle Externo moderno?\nCaso II: Censo CNJ 2023\nUma mensagem\nFim"
+  },
+  {
+    "objectID": "apresentacao.html#inuítes-polares---1820",
+    "href": "apresentacao.html#inuítes-polares---1820",
+    "title": "",
+    "section": "Inuítes polares - 1820",
+    "text": "Inuítes polares - 1820"
   },
   {
     "objectID": "apresentacao.html#section-1",
@@ -98,6 +105,13 @@
     "text": "Alguns dos desafios\n\nSer alfabetizado em dados;\nImpulsionar a inovação e zelar pela qualidade dos dados;\nPromover uma cultura de dados;\nCombater a desinformação."
   },
   {
+    "objectID": "apresentacao.html#section-7",
+    "href": "apresentacao.html#section-7",
+    "title": "",
+    "section": "",
+    "text": "Os Tribunais de Contas são organizações legadas que não foram concebidas para serem orientadas a dados."
+  },
+  {
     "objectID": "apresentacao.html#alfabetização-de-dados",
     "href": "apresentacao.html#alfabetização-de-dados",
     "title": "",
@@ -119,15 +133,29 @@
     "text": "..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.\n[…]\nO segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. (Frank, Magnone e Netzer, 2022)"
   },
   {
+    "objectID": "apresentacao.html#section-9",
+    "href": "apresentacao.html#section-9",
+    "title": "",
+    "section": "",
+    "text": "Podemos ficar cegos para o óbvio, e também somos cegos para a nossa própria cegueira. (Kahneman, 2012)"
+  },
+  {
+    "objectID": "apresentacao.html#problema-apresentado-no-6º-conacon",
+    "href": "apresentacao.html#problema-apresentado-no-6º-conacon",
+    "title": "",
+    "section": "Problema apresentado no 6º CONACON",
+    "text": "Problema apresentado no 6º CONACON\n\nEm um município do Estado da Paraíba, 6.000 pessoas foram infectadas por uma variante mortal do Cordyceps. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.\nTome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!"
+  },
+  {
     "objectID": "apresentacao.html#possibilidades-apresentadas",
     "href": "apresentacao.html#possibilidades-apresentadas",
     "title": "",
     "section": "Possibilidades apresentadas",
-    "text": "Possibilidades apresentadas\nA1 - Se o Tratamento A for adotado, 2.000 pessoas serão salvas; (84%)\nB1 - Se o Tratamento B for adotado, há uma probabilidade de que 6.000 pessoas serão salvas e uma probabilidade de dois terços de que ninguém será salvo. (16%)\nA2 - Se o Tratamento A for adotado, 4.000 pessoas morrerão; (16%)\nB2 - Se o tratamento B for adotado, há uma probabilidade de um terço de que ninguém morrerá e uma probabilidade de dois terços de que 6.000 pessoas vão morrer. (84%)\n\n\n\n\n\n\nMais informações\n\n\nExperimento apresentado em The Framing of Decisions and the Psychology of Choice (Tversky e Kahneman, 1981)"
+    "text": "Possibilidades apresentadas\nA1 - Se o Tratamento A for adotado, 2.000 pessoas serão salvas; (84%)\nB1 - Se o Tratamento B for adotado, há uma probabilidade um terço de que 6.000 pessoas serão salvas e uma probabilidade de dois terços de que ninguém será salvo. (16%)\nA2 - Se o Tratamento A for adotado, 4.000 pessoas morrerão; (16%)\nB2 - Se o tratamento B for adotado, há uma probabilidade de um terço de que ninguém morrerá e uma probabilidade de dois terços de que 6.000 pessoas vão morrer. (84%)\n\n\n\n\n\n\nMais informações\n\n\nExperimento apresentado em The Framing of Decisions and the Psychology of Choice (Tversky e Kahneman, 1981)"
   },
   {
-    "objectID": "apresentacao.html#section-9",
-    "href": "apresentacao.html#section-9",
+    "objectID": "apresentacao.html#section-10",
+    "href": "apresentacao.html#section-10",
     "title": "",
     "section": "",
     "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
@@ -140,11 +168,11 @@
     "text": "Comunicar com dados: sabemos?\n\nAlém de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. (Cabtree e Nehme, 2023)\n\n\nSomos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. […] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. (Knaflic, 2018)"
   },
   {
-    "objectID": "apresentacao.html#section-10",
-    "href": "apresentacao.html#section-10",
+    "objectID": "apresentacao.html#fuja-do-3d-e-dos-gráficos-de-pizza",
+    "href": "apresentacao.html#fuja-do-3d-e-dos-gráficos-de-pizza",
     "title": "",
-    "section": "",
-    "text": "A melhor defesa contra a subjetividade na ciência é expô-la. A transparência nos dados, métodos e processos dá ao resto da comunidade a oportunidade de ver as decisões, questioná-las, oferecer alternativas e testar essas alternativas em pesquisas futuras."
+    "section": "Fuja do 3D e dos gráficos de pizza!",
+    "text": "Fuja do 3D e dos gráficos de pizza!\n\nNão use 3D! Não serve absolutamente para nada e pode prejudicar muito, como vemos aqui, pois distorce a percepção visual dos números. (Knaflic, 2018)"
   },
   {
     "objectID": "apresentacao.html#qualidade-dos-dados-e-ausência-de-confiança",
@@ -154,6 +182,104 @@
     "text": "Qualidade dos dados e ausência de confiança"
   },
   {
+    "objectID": "apresentacao.html#devemos-combater-a-desinformação",
+    "href": "apresentacao.html#devemos-combater-a-desinformação",
+    "title": "",
+    "section": "Devemos combater a desinformação",
+    "text": "Devemos combater a desinformação\n\n\nOs mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
+  },
+  {
+    "objectID": "apresentacao.html#o-que-diz-o-texto-da-pesquisa",
+    "href": "apresentacao.html#o-que-diz-o-texto-da-pesquisa",
+    "title": "",
+    "section": "O que diz o texto da pesquisa",
+    "text": "O que diz o texto da pesquisa\nNa página 44 do documento disponibilizado pelo CNJ, há o seguinte trecho.\n\nA Figura 28 apresenta dados relativos à concordância ou discordância dos(as) magistrados sobre a afirmação: “Considero que minha remuneração é adequada ao trabalho que executo”. Tanto nas respostas dos(as) magistrados(as) quanto nas dos(as) servidores(as), que serão abordadas na próxima seção, essa é uma das afirmações que gerou mais discordância."
+  },
+  {
+    "objectID": "apresentacao.html#os-juízes-estão-satisfeitos-com-suas-remunerações",
+    "href": "apresentacao.html#os-juízes-estão-satisfeitos-com-suas-remunerações",
+    "title": "",
+    "section": "Os juízes estão satisfeitos com suas remunerações?",
+    "text": "Os juízes estão satisfeitos com suas remunerações?"
+  },
+  {
+    "objectID": "apresentacao.html#e-em-relação-aos-servidores",
+    "href": "apresentacao.html#e-em-relação-aos-servidores",
+    "title": "",
+    "section": "E em relação aos servidores?",
+    "text": "E em relação aos servidores?\n\nDe maneira geral, no âmbito do Poder Judiciário, 73,9% dos(as) magistrados(as) discordaram ou discordaram completamente da afirmação, em contraste com os 26,1% que concordaram ou concordaram totalmente com a adequação entre a remuneração e o trabalho realizado. Esse percentual de discordância é consideravelmente superior em comparação com as respostas dos(as) servidores(as) à mesma pergunta, na qual 54,2% indicaram concordar totalmente ou concordar simplesmente com a afirmação, enquanto 45,8% apontaram discordância em relação à adequação da remuneração às tarefas desempenhadas (Figura 99)."
+  },
+  {
+    "objectID": "apresentacao.html#a-pergunta-foi-a-mesma",
+    "href": "apresentacao.html#a-pergunta-foi-a-mesma",
+    "title": "",
+    "section": "A pergunta foi a mesma?",
+    "text": "A pergunta foi a mesma?\n\nConforme Figura 99, foi perguntado aos(às) servidores(as) se concordavam ou discordavam da seguinte frase: “Considero que minha remuneração é adequada às minhas atribuições”. Essa é uma das afirmações que mais tiveram discordância, ainda que os percentuais de concordância tenham sido mais elevados."
+  },
+  {
+    "objectID": "apresentacao.html#notícia-no-o-globo",
+    "href": "apresentacao.html#notícia-no-o-globo",
+    "title": "",
+    "section": "Notícia no O Globo",
+    "text": "Notícia no O Globo\n\nLink da matéria"
+  },
+  {
+    "objectID": "apresentacao.html#notícia-no-o-globo-1",
+    "href": "apresentacao.html#notícia-no-o-globo-1",
+    "title": "",
+    "section": "Notícia no O Globo",
+    "text": "Notícia no O Globo\n\nUma pesquisa realizada pelo Conselho Nacional de Justiça (CNJ) aponta que 73,9% dos magistrados do país consideram que recebem remuneração abaixo da adequada. O 2º Censo do Poder Judiciário, cujo relatório parcial foi publicado no site do órgão nesta terça-feira, indica ainda que quatro em cada cinco juízes ou desembargadores brasileiros acreditam que têm um volume de trabalho maior do que o ideal."
+  },
+  {
+    "objectID": "apresentacao.html#notícia-no-estadão",
+    "href": "apresentacao.html#notícia-no-estadão",
+    "title": "",
+    "section": "Notícia no Estadão",
+    "text": "Notícia no Estadão\nLink da matéria\n\nOs juízes de Direito brasileiros estão estressados e ansiosos, trabalham demais e sentem que seus salários não são suficientes. É o que mostra o relatório parcial do 2º Censo do Poder Judiciário do Conselho Nacional de Justiça (CNJ), divulgado nesta terça-feira, 19, elaborado a partir das respostas de 6,1 mil magistrados do País. O subsídio mais baixo de um juiz federal hoje é de R$ 33 mil, equivalente a 25 salários mínimos."
+  },
+  {
+    "objectID": "apresentacao.html#olhando-um-pouco-mais-os-dados",
+    "href": "apresentacao.html#olhando-um-pouco-mais-os-dados",
+    "title": "",
+    "section": "Olhando um pouco mais os dados",
+    "text": "Olhando um pouco mais os dados\nA página 12 do trabalho traz o seguinte texto:\n\nSendo assim, traçando um paralelo com a atualização do censo, apesar de terem sido empreendidos diversos esforços de promoção e estímulo à participação por parte do CNJ, até 30 de junho de 2023, data-base para a construção deste relatório, somente 23% dos(as) servidores(as) e 34% dos(as) juízes(as) efetivamente já tinham contribuído com a pesquisa.\n\n\nComo resultado, não é viável categorizá-la como um censo, uma vez que não engloba a totalidade do grupo-alvo. No entanto, o novo levantamento apresentado neste relatório é uma pesquisa robusta, com informações sobre o perfil de magistrados(as) e servidores(as) de todos os tribunais e conselhos que compõem o Judiciário."
+  },
+  {
+    "objectID": "apresentacao.html#section-11",
+    "href": "apresentacao.html#section-11",
+    "title": "",
+    "section": "",
+    "text": "A fé exagerada em amostragens pequenas é apenas um exemplo de uma ilusão mais geral - prestamos mais atenção ao conteúdo das mensagens do que à informação sobre sua confiabilidade, e como resultado terminamos com uma visão do mundo em torno de nós que é mais simples e mais coerente do que os dados justificam (Kahneman, 2012)"
+  },
+  {
+    "objectID": "apresentacao.html#section-12",
+    "href": "apresentacao.html#section-12",
+    "title": "",
+    "section": "",
+    "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
+  },
+  {
+    "objectID": "apresentacao.html#section-13",
+    "href": "apresentacao.html#section-13",
+    "title": "",
+    "section": "",
+    "text": "IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: avanços algorítmicos, poder computacional e explosão de dados. (Espindola e Wright, 2021)"
+  },
+  {
+    "objectID": "apresentacao.html#vasa-1",
+    "href": "apresentacao.html#vasa-1",
+    "title": "",
+    "section": "VASA-1",
+    "text": "VASA-1"
+  },
+  {
+    "objectID": "apresentacao.html#estamos-chegando-ao-fim",
+    "href": "apresentacao.html#estamos-chegando-ao-fim",
+    "title": "",
+    "section": "Estamos chegando ao fim…",
+    "text": "Estamos chegando ao fim…"
+  },
+  {
     "objectID": "apresentacao.html#bombardeios-em-londres---1940",
     "href": "apresentacao.html#bombardeios-em-londres---1940",
     "title": "",
@@ -161,18 +287,18 @@
     "text": "Bombardeios em Londres - 1940"
   },
   {
-    "objectID": "apresentacao.html#section-11",
-    "href": "apresentacao.html#section-11",
+    "objectID": "apresentacao.html#section-14",
+    "href": "apresentacao.html#section-14",
     "title": "",
     "section": "",
     "text": "Coragem não é algo que você já tem e o torna destemido quando tempos difíceis começam. Coragem é o que você conquista quando passou por tempos difíceis e descobriu que não são tão difíceis assim. (Gladwell, 2014)"
   },
   {
-    "objectID": "apresentacao.html#section-12",
-    "href": "apresentacao.html#section-12",
+    "objectID": "apresentacao.html#section-15",
+    "href": "apresentacao.html#section-15",
     "title": "",
     "section": "",
-    "text": "Muito obrigado!"
+    "text": "Muito obrigado!\n\n wsena@tce.pb.gov.br\n Weverton Lisboa de Sena"
   },
   {
     "objectID": "apresentacao.html#referências",
