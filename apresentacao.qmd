@@ -80,6 +80,7 @@ nocite: |
   - Caso I: Natsal-3
   - Quais os desafios para o Auditor de Controle Externo moderno?
   - Caso II: Censo CNJ 2023
+  - IA: estamos ultrapassados?
   - Uma mensagem
 -  **Fim**
 
@@ -309,8 +310,6 @@ p + theme_minimal()# draw the plot
 
 ## Alfabetização de dados
 
-## Definição {style="text-align:justify"}
-
 <br>
 
 > Alfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. [@morrow2021data]
@@ -458,10 +457,9 @@ A página 12 do trabalho traz o seguinte texto:
 
 ## {style="text-align:justify"}
 
-> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
-A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
+> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. [@huff2016]
 
-# IA: chegamos ao fim?
+# IA: estamos ultrapassados?
 
 ## {style="text-align:justify"}
 

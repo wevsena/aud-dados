@@ -4,7 +4,7 @@
     "href": "apresentacao.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nO que são dados?\nNa era da abundância de dados;\nO que são dados de qualidade?\nCaso I: Natsal-3\nQuais os desafios para o Auditor de Controle Externo moderno?\nCaso II: Censo CNJ 2023\nUma mensagem\nFim"
+    "text": "Introdução\nO que são dados?\nNa era da abundância de dados;\nO que são dados de qualidade?\nCaso I: Natsal-3\nQuais os desafios para o Auditor de Controle Externo moderno?\nCaso II: Censo CNJ 2023\nIA: estamos ultrapassados?\nUma mensagem\nFim"
   },
   {
     "objectID": "apresentacao.html#inuítes-polares---1820",
@@ -116,14 +116,7 @@
     "href": "apresentacao.html#alfabetização-de-dados",
     "title": "",
     "section": "Alfabetização de dados",
-    "text": "Alfabetização de dados"
-  },
-  {
-    "objectID": "apresentacao.html#definição",
-    "href": "apresentacao.html#definição",
-    "title": "",
-    "section": "Definição",
-    "text": "Definição\n\n\nAlfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. (Morrow, 2021)"
+    "text": "Alfabetização de dados\n\n\nAlfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. (Morrow, 2021)"
   },
   {
     "objectID": "apresentacao.html#section-8",
@@ -256,7 +249,7 @@
     "href": "apresentacao.html#section-12",
     "title": "",
     "section": "",
-    "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
+    "text": "_Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
   },
   {
     "objectID": "apresentacao.html#section-13",
