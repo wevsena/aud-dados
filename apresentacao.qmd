@@ -342,13 +342,13 @@ p + theme_minimal()# draw the plot
 
 **A1** - Se o Tratamento A for adotado, [2.000 pessoas serão salvas]{.hlight}; _(84%)_
 
-**B1** - Se o Tratamento B for adotado, há uma probabilidade um terço de que [6.000 pessoas serão salvas]{.hlight} e uma probabilidade de dois terços de que ninguém será salvo. (16%)
+**B1** - Se o Tratamento B for adotado, há uma probabilidade um terço de que [6.000 pessoas serão salvas]{.hlight} e uma probabilidade de dois terços de que ninguém será salvo. _(16%)_
 
 
 
-**A2** - Se o Tratamento A for adotado, [4.000 pessoas morrerão]{.hlight}; _(16%)_
+**A2** - Se o Tratamento A for adotado, [4.000 pessoas morrerão]{.hlight}; _(12%)_
 
-**B2** - Se o tratamento B for adotado, há uma probabilidade de um terço de que [ninguém morrerá]{.hlight}  e uma probabilidade de dois terços de que [6.000 pessoas vão morrer]{.hlight}. (84%)
+**B2** - Se o tratamento B for adotado, há uma probabilidade de um terço de que [ninguém morrerá]{.hlight}  e uma probabilidade de dois terços de que [6.000 pessoas vão morrer]{.hlight}. _(88%)_
 
 ::: {.callout-note appearance="simple"}
 
