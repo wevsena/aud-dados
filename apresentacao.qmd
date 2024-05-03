@@ -6,7 +6,6 @@ institute: ""
 date: 2024/05/03
 date-format: "MMMM - YYYY"
 title-slide-attributes:
-  data-background-color: "aquamarine"
   data-background-image: "imagens/capa.svg"
 bibliography: resources/slides.bib
 csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
@@ -80,6 +79,7 @@ nocite: |
   - Caso I: Natsal-3
   - Quais os desafios para o Auditor de Controle Externo moderno?
   - Caso II: Censo CNJ 2023
+  - Caso III: tamanho da escola x desempenho escolar
   - IA: estamos ultrapassados?
   - Uma mensagem
 -  **Fim**
@@ -458,6 +458,24 @@ A página 12 do trabalho traz o seguinte texto:
 ## {style="text-align:justify"}
 
 > _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. [@huff2016]
+
+# Caso III: tamanho da escola x desempenho escolar
+
+##
+> No final da década de 1990, a Fundação Bill & Melinda Gates começou a apoiar pequenas escolas em uma base nacional de amplo e intensiva. Em 2001, a fundação havia dado aproximadamente US$ 1,7 bilhão em doações para projetos educacionais. [@wainer2006]
+
+::: {.callout-note appearance="simple"}
+Outras entidades apoiaram a ideia a exemplo de: Annenberg Foundation, the Carnegie Corporation, the Center for Collaborative Education, Center for School Change, Harvard's Change Leadership Group, the Open Society Institute, the Pew Charitable Trusts, and the U.S. Department of Education's Smaller Learning Communities Program.
+:::
+
+##
+
+![](./imagens/wainer.png){width=75% fig-position="center"}
+
+##
+
+![](./imagens/wainer2.png){width=75% fig-position="center"}
+
 
 # IA: estamos ultrapassados?
 
